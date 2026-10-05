@@ -93,9 +93,9 @@ toolchain rebuilt in CI, with a <a href="https://alifizz01.github.io/fpga-can-ti
 </td>
 <td width="50%" valign="top">
 <img src="assets/icon-pcb.svg" width="44" align="left" hspace="10">
-<b><a href="https://github.com/Alifizz01/pcb-portfolio">PCB portfolio</a></b> · Altium<br>
-<sub>Boards taken end to end: requirements, schematic, layout, manufacturing package. A CAN-FD sniffer HAT for the
-Pi Zero 2 W and a handheld OBD-II test runner.</sub><br>
+<b><a href="https://github.com/Alifizz01/automotive-pcb-portfolio">Automotive PCB portfolio</a></b> · Altium<br>
+<sub>Three CAN-FD tools taken end to end: requirements, schematic, layout, fab outputs. A sniffer HAT for the Pi
+Zero 2 W, a handheld OBD-II test runner, and an isolated FPGA timestamper board.</sub><br>
 <sub><code>Altium Designer</code> <code>CAN-FD</code> <code>Raspberry Pi</code></sub>
 </td>
 </tr>
