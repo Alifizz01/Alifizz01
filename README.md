@@ -112,7 +112,6 @@ Pi Zero 2 W and a handheld OBD-II test runner.</sub><br>
 undo. About 10 MB of RAM idle.</sub><br>
 <sub><code>C#</code> <code>WPF</code> <code>Win32</code></sub>
 </td>
-<td width="50%" valign="top"></td>
 </tr>
 </table>
 
