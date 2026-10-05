@@ -11,14 +11,14 @@ that test them.**
 <table>
 <tr>
 <td width="50%" valign="top">
-<img src="assets/icon-thesis.svg" width="44" align="left" hspace="10">
+<img src="assets/mark-thesis.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/CANedge2-UDS-implementation-Thesis">VW ID. Buzz battery over UDS</a></b> · bachelor thesis<br>
 <sub>The MEB gateway hides the BMS from the OBD-II port, so a CANedge2 logger <i>asks</i> instead of listens. 60 identifiers tested,
 three encodings the public list gets wrong, and a desktop app for logger profiles and MF4 decoding.</sub><br>
 <sub><code>CAN</code> <code>UDS</code> <code>Python</code> <code>LaTeX</code></sub>
 </td>
 <td width="50%" valign="top">
-<img src="assets/icon-xiloop.svg" width="44" align="left" hspace="10">
+<img src="assets/mark-xiloop.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/XiLoop">XiLoop</a></b> · X-in-the-loop test bench<br>
 <sub>One test plan from a Python prototype to C firmware to a real board: SiL, PiL and HiL with the same
 requirements, a desktop studio and a REST API.</sub><br>
@@ -27,14 +27,14 @@ requirements, a desktop studio and a REST API.</sub><br>
 </tr>
 <tr>
 <td valign="top">
-<img src="assets/icon-busbench.svg" width="44" align="left" hspace="10">
+<img src="assets/mark-busbench.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/BusBench">BusBench</a></b> · protocol workbench<br>
 <sub>Ten automotive and avionics protocols (CAN, UDS/ISO-TP, AUTOSAR, DoIP, ARINC 429, MIL-STD-1553 …) implemented
 twice, in C and in Python, and tested against each other. Fuzzed in CI.</sub><br>
 <sub><code>C</code> <code>Python</code> <code>libFuzzer</code></sub>
 </td>
 <td valign="top">
-<img src="assets/icon-toolbridge.svg" width="44" align="left" hspace="10">
+<img src="assets/mark-toolbridge.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/ToolBridge">ToolBridge</a></b> · APIs for GUI-only tools<br>
 <sub>Reads a Windows engineering tool (an ECU flasher, a calibration program) through UI Automation and .NET
 metadata and generates a Python package and REST API for it. No pixel clicking.</sub><br>
@@ -43,14 +43,14 @@ metadata and generates a Python package and REST API for it. No pixel clicking.<
 </tr>
 <tr>
 <td valign="top">
-<img src="assets/icon-benchpulse.svg" width="44" align="left" hspace="10">
+<img src="assets/mark-benchpulse.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/BenchPulse">BenchPulse</a></b> · HiL lab dashboard<br>
 <sub>Which bench PC is free, who is on the busy ones over Remote Desktop, and when you can book it.
 One browser page for the whole lab, no install for colleagues.</sub><br>
 <sub><code>Python</code> <code>Windows API</code> <code>SQLite</code></sub>
 </td>
 <td valign="top">
-<img src="assets/icon-pilink.svg" width="44" align="left" hspace="10">
+<img src="assets/mark-pilink.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/PiLink">PiLink</a></b> · verified PC ↔ USB transfer box<br>
 <sub>A Raspberry Pi between a locked-down PC and a USB stick: the PC only speaks FTP, every copy is
 checksum-verified before it says "done".</sub><br>
@@ -64,14 +64,14 @@ checksum-verified before it says "done".</sub><br>
 <table>
 <tr>
 <td width="50%" valign="top">
-<img src="assets/icon-gaia.svg" width="44" align="left" hspace="10">
+<img src="assets/mark-gaia.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/GAIA">GAIA</a></b> · BMS simulator<br>
 <sub>PyBaMM electrochemistry for the cells and a real BMS on top: SOC estimation, protection, balancing,
 contactors. Fault injection, a desktop studio and Simulink blocks.</sub><br>
 <sub><code>Python</code> <code>PyBaMM</code> <code>MATLAB/Simulink</code></sub>
 </td>
 <td width="50%" valign="top">
-<img src="assets/icon-aether.svg" width="44" align="left" hspace="10">
+<img src="assets/mark-aether.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/AETHER">AETHER</a></b> · electric propulsion<br>
 <sub>GAIA's sibling for what the battery drives: give it a throttle and get the whole chain, from where the
 shaft settles to where every watt went.</sub><br>
@@ -85,14 +85,14 @@ shaft settles to where every watt went.</sub><br>
 <table>
 <tr>
 <td width="50%" valign="top">
-<img src="assets/icon-fpga.svg" width="44" align="left" hspace="10">
+<img src="assets/mark-fpga.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/fpga-can-timestamper">CAN-FD hardware timestamper</a></b> · FPGA<br>
 <sub>A two-channel CAN-FD receiver in VHDL that timestamps every frame in hardware on one shared clock. Open
 toolchain rebuilt in CI, with a <a href="https://alifizz01.github.io/fpga-can-timestamper/">live capture viewer</a>.</sub><br>
 <sub><code>VHDL</code> <code>Lattice ECP5</code> <code>CAN-FD</code></sub>
 </td>
 <td width="50%" valign="top">
-<img src="assets/icon-pcb.svg" width="44" align="left" hspace="10">
+<img src="assets/mark-pcb.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/automotive-pcb-portfolio">Automotive PCB portfolio</a></b> · Altium<br>
 <sub>Three CAN-FD tools taken end to end: requirements, schematic, layout, fab outputs. A sniffer HAT for the Pi
 Zero 2 W, a handheld OBD-II test runner, and an isolated FPGA timestamper board.</sub><br>
@@ -106,7 +106,7 @@ Zero 2 W, a handheld OBD-II test runner, and an isolated FPGA timestamper board.
 <table>
 <tr>
 <td width="50%" valign="top">
-<img src="assets/icon-floatie.svg" width="44" align="left" hspace="10">
+<img src="assets/mark-floatie.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/Floatie">Floatie</a></b> · desktop fences for Windows<br>
 <sub>Live, filtered views of your Desktop and Downloads that stay where you put them, plus a Tidy with preview and
 undo. About 10 MB of RAM idle.</sub><br>
