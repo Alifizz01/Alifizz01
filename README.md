@@ -57,6 +57,16 @@ checksum-verified before it says "done".</sub><br>
 <sub><code>Python</code> <code>Raspberry Pi</code></sub>
 </td>
 </tr>
+<tr>
+<td valign="top">
+<img src="assets/mark-cansleuth.svg" width="44" align="left" hspace="10">
+<b><a href="https://github.com/Alifizz01/CANsleuth">CANsleuth</a></b> · CAN reverse engineering<br>
+<sub>Hand it a CAN log: it finds fields, counters, CRCs (AUTOSAR E2E included) and exact signal encodings, and
+shows the evidence. Recovers all five encodings from my thesis's raw UDS data.</sub><br>
+<sub><code>Python</code> <code>CAN</code> <code>UDS</code> <code>DBC</code></sub>
+</td>
+<td valign="top"></td>
+</tr>
 </table>
 
 ### Battery & powertrain
