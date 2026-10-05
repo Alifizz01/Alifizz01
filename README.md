@@ -18,7 +18,7 @@ three encodings the public list gets wrong, and a desktop app for logger profile
 <sub><code>CAN</code> <code>UDS</code> <code>Python</code> <code>LaTeX</code></sub>
 </td>
 <td width="50%" valign="top">
-<img src="https://raw.githubusercontent.com/Alifizz01/XiLoop/main/assets/logo-mark.png" width="44" align="left" hspace="10">
+<img src="assets/icon-xiloop.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/XiLoop">XiLoop</a></b> · X-in-the-loop test bench<br>
 <sub>One test plan from a Python prototype to C firmware to a real board: SiL, PiL and HiL with the same
 requirements, a desktop studio and a REST API.</sub><br>
@@ -27,7 +27,7 @@ requirements, a desktop studio and a REST API.</sub><br>
 </tr>
 <tr>
 <td valign="top">
-<img src="https://raw.githubusercontent.com/Alifizz01/BusBench/main/assets/logo-mark.png" width="44" align="left" hspace="10">
+<img src="assets/icon-busbench.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/BusBench">BusBench</a></b> · protocol workbench<br>
 <sub>Ten automotive and avionics protocols (CAN, UDS/ISO-TP, AUTOSAR, DoIP, ARINC 429, MIL-STD-1553 …) implemented
 twice, in C and in Python, and tested against each other. Fuzzed in CI.</sub><br>
@@ -43,7 +43,7 @@ metadata and generates a Python package and REST API for it. No pixel clicking.<
 </tr>
 <tr>
 <td valign="top">
-<img src="https://raw.githubusercontent.com/Alifizz01/BenchPulse/main/assets/logo-mark.png" width="44" align="left" hspace="10">
+<img src="assets/icon-benchpulse.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/BenchPulse">BenchPulse</a></b> · HiL lab dashboard<br>
 <sub>Which bench PC is free, who is on the busy ones over Remote Desktop, and when you can book it.
 One browser page for the whole lab, no install for colleagues.</sub><br>
@@ -64,7 +64,7 @@ checksum-verified before it says "done".</sub><br>
 <table>
 <tr>
 <td width="50%" valign="top">
-<img src="https://raw.githubusercontent.com/Alifizz01/GAIA/main/assets/logo-mark.png" width="44" align="left" hspace="10">
+<img src="assets/icon-gaia.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/GAIA">GAIA</a></b> · BMS simulator<br>
 <sub>PyBaMM electrochemistry for the cells and a real BMS on top: SOC estimation, protection, balancing,
 contactors. Fault injection, a desktop studio and Simulink blocks.</sub><br>
@@ -106,7 +106,7 @@ Zero 2 W, a handheld OBD-II test runner, and an isolated FPGA timestamper board.
 <table>
 <tr>
 <td width="50%" valign="top">
-<img src="https://raw.githubusercontent.com/Alifizz01/Floatie/master/assets/logo-mark.png" width="44" align="left" hspace="10">
+<img src="assets/icon-floatie.svg" width="44" align="left" hspace="10">
 <b><a href="https://github.com/Alifizz01/Floatie">Floatie</a></b> · desktop fences for Windows<br>
 <sub>Live, filtered views of your Desktop and Downloads that stay where you put them, plus a Tidy with preview and
 undo. About 10 MB of RAM idle.</sub><br>
