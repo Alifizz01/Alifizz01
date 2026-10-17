@@ -65,7 +65,12 @@ checksum-verified before it says "done".</sub><br>
 shows the evidence. Recovers all five encodings from my thesis's raw UDS data.</sub><br>
 <sub><code>Python</code> <code>CAN</code> <code>UDS</code> <code>DBC</code></sub>
 </td>
-<td valign="top"></td>
+<td valign="top">
+<img src="assets/mark-t1scope.svg" width="44" align="left" hspace="10">
+<b><a href="https://github.com/Alifizz01/T1Scope">T1Scope</a></b> · automotive Ethernet<br>
+<sub>MDIO toolkit for a simulated 100BASE-T1 PHY with cable-fault injection and register-only link diagnosis, plus a DoIP / SOME/IP pcap analyser.</sub><br>
+<sub><code>Python</code> <code>100BASE-T1</code> <code>DoIP</code></sub>
+</td>
 </tr>
 </table>
 
@@ -90,6 +95,52 @@ shaft settles to where every watt went.</sub><br>
 </tr>
 </table>
 
+### Test & measurement
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="assets/mark-daqproof.svg" width="44" align="left" hspace="10">
+<b><a href="https://github.com/Alifizz01/DAQProof">DAQProof</a></b> · instrument test suite<br>
+<sub>pytest checks for an 8-channel DAQ over SCPI/PyVISA: accuracy, noise, crosstalk, dropped samples. CI injects a fault and requires the run to fail.</sub><br>
+<sub><code>Python</code> <code>pytest</code> <code>SCPI</code></sub>
+</td>
+<td width="50%" valign="top">
+<img src="assets/mark-eolstation.svg" width="44" align="left" hspace="10">
+<b><a href="https://github.com/Alifizz01/EOLStation">EOLStation</a></b> · end-of-line test station<br>
+<sub>YAML test sequences with limits and retries against simulated boards, then yield, retest rate, failure Pareto and Cpk per batch.</sub><br>
+<sub><code>Python</code> <code>PyVISA</code> <code>statistics</code></sub>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<img src="assets/mark-testbedlens.svg" width="44" align="left" hspace="10">
+<b><a href="https://github.com/Alifizz01/TestBedLens">TestBedLens</a></b> · engine test-bed analysis<br>
+<sub>Checks turbofan-style logs against a JSON requirement spec and tells a sensor fault from a control problem.</sub><br>
+<sub><code>Python</code> <code>requirements</code> <code>signal analysis</code></sub>
+</td>
+<td valign="top">
+<img src="assets/mark-bridgesense.svg" width="44" align="left" hspace="10">
+<b><a href="https://github.com/Alifizz01/BridgeSense">BridgeSense</a></b> · sensor front-end design<br>
+<sub>Bridge, in-amp, anti-alias filter and 24-bit ADC checked in ngspice, with an error budget and a pressure x temperature calibration.</sub><br>
+<sub><code>ngspice</code> <code>Python</code> <code>analog</code></sub>
+</td>
+</tr>
+</table>
+
+### Robotics
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="assets/mark-rovercan.svg" width="44" align="left" hspace="10">
+<b><a href="https://github.com/Alifizz01/RoverCAN">RoverCAN</a></b> · ROS 2 + CAN<br>
+<sub>A simulated differential-drive robot: waypoint follower, CAN motor bridge with counters and checksums, and diagnostics that catch injected faults.</sub><br>
+<sub><code>ROS 2</code> <code>Python</code> <code>CAN</code></sub>
+</td>
+</tr>
+</table>
+
 ### Hardware
 
 <table>
@@ -108,6 +159,15 @@ toolchain rebuilt in CI, with a <a href="https://alifizz01.github.io/fpga-can-ti
 Zero 2 W, a handheld OBD-II test runner, and an isolated FPGA timestamper board.</sub><br>
 <sub><code>Altium Designer</code> <code>CAN-FD</code> <code>Raspberry Pi</code></sub>
 </td>
+</tr>
+<tr>
+<td valign="top">
+<img src="assets/mark-fpga-fir-decimator.svg" width="44" align="left" hspace="10">
+<b><a href="https://github.com/Alifizz01/fpga-fir-decimator">FIR decimator</a></b> · FPGA DSP<br>
+<sub>32-tap FIR decimator in VHDL with AXI4-Stream and AXI4-Lite, checked bit-exact against a NumPy model with cocotb. Simulated and synthesised.</sub><br>
+<sub><code>VHDL</code> <code>AXI</code> <code>cocotb</code></sub>
+</td>
+<td valign="top"></td>
 </tr>
 </table>
 
@@ -130,6 +190,7 @@ undo. About 10 MB of RAM idle.</sub><br>
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23%20%2F%20.NET-512BD4?logo=dotnet&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS%202-22314E?logo=ros&logoColor=white)
 ![VHDL](https://img.shields.io/badge/VHDL-1B2430)
 ![MATLAB](https://img.shields.io/badge/MATLAB%20%2F%20Simulink-E16737)
 ![Altium](https://img.shields.io/badge/Altium%20Designer-A5915F)
