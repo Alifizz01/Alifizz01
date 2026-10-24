@@ -1,5 +1,3 @@
-<img src="assets/banner.svg" alt="Alif Izzuwan: electrical engineering and electromobility" width="100%">
-
 I build the tools I wish test benches came with. My B.Eng. in electrical engineering and electromobility at
 TH Ingolstadt ended with a thesis that reads a VW ID. Buzz's battery through the OBD-II gateway, and an internship
 on a hardware-in-the-loop test team showed me how much time engineers lose to missing tooling. Most of what is
